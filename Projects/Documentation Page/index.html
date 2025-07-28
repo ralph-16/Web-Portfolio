@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>HTML Documentation</header>
+        <a href="#Introduction" class="nav-link" id="introduction">Introduction</a>
+        <a href="#Basic_Structure_of_an_HTML_Document" class="nav-link">Basic Structure of an HTML Document</a>
+        <a href="#Common_HTML_Elements" class="nav-link">Common HTML Elements</a>
+        <a href="#Attributes_and_Semantics" class="nav-link">Attributes and Semantics</a>
+
+        <a href="#Best_Practices_and_Tips" class="nav-link" id="last">Best Practices and Tips</a>
+      </nav>  
+
+      <section id="Introduction" class="main-section">
+        <header>Introduction</header>
+        <p>
+          HTML, or HyperText Markup Language, is the standard language used to create and structure content on the web. It forms the backbone of every webpage, providing the foundational layout for text, images, links, forms, and other elements. When you open a website, your browser reads the HTML code and renders it into the structured content you see. HTML is not a programming language — it doesn't contain logic like JavaScript — but rather a markup language that uses tags to organize and display content properly.
+        </p>
+        <p>
+          Since its initial development in the early 1990s, HTML has evolved significantly. The latest version, HTML5, introduces new semantic tags, multimedia support, and better integration with CSS and JavaScript. This allows developers to build more interactive, accessible, and efficient web applications. Whether you're a beginner learning how the web works or an experienced developer building modern websites, understanding HTML is an essential first step in mastering front-end development.
+        </p>
+      </section>
+
+      <section id="Basic_Structure_of_an_HTML_Document" class="main-section">
+        <header>Basic Structure of an HTML Document</header>
+        <p>
+          Every HTML document follows a general structure that tells the browser how to render the content. This structure is made up of key elements that wrap and organize all the parts of your webpage. Below is the most common layout you'll see in any modern HTML file:
+        </p> 
+    <img src="https://miro.medium.com/v2/resize:fit:640/0*b_E6ofKFDndY7_xz.png" class="boiler">
+        <p>Let's break down the main parts:</p>
+        <ul>
+          <li>&lt;!DOCTYPE html&gt; declares the document type and version of HTML (HTML5 in this case). It ensures browsers interpret the file correctly.</li>
+          <li>&lt;html lang="en"&gt; is the root element that wraps all HTML content.</li>
+          <li>&lt;head&gt; contains meta-information about the document, such as its title, character encoding, and viewport settings for responsiveness.</li>
+          <li>&lt;title&gt; defines the text shown in the browser tab.</li>
+          <li>&lt;body&gt; contains everything visible on the web page, like headings, paragraphs, links, and other elements.</li>
+        </ul>  
+      </section>
+
+      <section id="Common_HTML_Elements" class="main-section">
+        <header>Common HTML Elements</header>
+        <p>Below are the common HTML Elements that you can use:</p>
+
+        <h3>Text Content</h3>
+        <ul>
+          <li>&lt;h1&gt; to &lt;h6&gt; define headings, from most important (&lt;h1&gt;) to least important (&lt;h6&gt;).</li>
+          <li>&lt;p&gt; defines a paragraph of text.</li>
+          <li>&lt;br&gt; inserts a line break within text.</li>
+          <li>&lt;hr&gt; creates a horizontal rule or line, often used to separate content.</li>
+          <li>&lt;strong&gt; emphasizes important text, usually rendered in bold.</li>
+          <li>&lt;em&gt; emphasizes text with stress, usually rendered in italics.</li>
+          <li>&lt;b&gt; makes text bold without semantic meaning.</li>
+          <li>&lt;i&gt; makes text italic without semantic meaning.</li>
+          <li>&lt;span&gt; is an inline container used for styling small sections of text.</li>
+          <li>&lt;div&gt; is a block-level container used to group elements and apply styles or layout.</li>
+        </ul>  
+
+        <h3>Links and Media</h3>
+        <ul>
+          <li>&lt;a&gt; defines a hyperlink to another page or location.</li>
+          <li>&lt;img&gt; embeds an image into the webpage.</li>
+          <li>&lt;video&gt; embeds a video player with controls.</li>
+          <li>&lt;audio&gt; embeds an audio player with controls.</li>
+          <li>&lt;source&gt; defines alternative media sources inside &lt;video&gt; or &lt;audio&gt;.</li>
+          <li>&lt;iframe&gt; embeds external content like a website or YouTube video.</li>
+        </ul>
+
+        <h3>Lists</h3>
+        <ul>
+          <li>&lt;ul&gt; creates an unordered list with bullet points.</li>
+          <li>&lt;ol&gt; creates an ordered list with numbers.</li>
+          <li>&lt;li&gt; defines a list item inside &lt;ul&gt; or &lt;ol&gt;.</li>
+          <li>&lt;dl&gt; defines a description list, typically used for terms and definitions.</li>
+          <li>&lt;dt&gt; defines a term in a description list.</li>
+          <li>&lt;dd&gt; provides the description for the term in a description list.</li>   
+        </ul>
+
+        <h3>Tables</h3>
+        <ul>
+          <li>&lt;table&gt; creates a table to organize data.</li>
+          <li>&lt;tr&gt; defines a row in a table.</li>
+          <li>&lt;td&gt; defines a standard cell in a table.</li>
+          <li>&lt;th&gt; defines a header cell in a table.</li>
+          <li>&lt;thead&gt; groups the header content in a table.</li>
+          <li>&lt;tbody&gt; groups the main body content in a table.</li>
+          <li>&lt;tfoot&gt; groups the footer content in a table.</li>
+          <li>&lt;caption&gt; adds a title or caption to a table.</li>
+        </ul>
+
+        <h3>Forms</h3>
+        <ul>
+          <li>&lt;form&gt; defines a form used to collect user input.</li>
+          <li>&lt;input&gt; creates various types of input fields (text, radio, checkbox, etc.).</li>
+          <li>&lt;textarea&gt; creates a multi-line text input area.</li>
+          <li>&lt;select&gt; creates a drop-down list.</li>
+          <li>&lt;option&gt; defines an option in a drop-down list.</li>
+          <li>&lt;label&gt; provides a label for a form element, improving accessibility.</li>
+        </ul>    
+      </section>
+
+      <section id="Attributes_and_Semantics" class="main-section">
+        <header>Attributes and Semantics</header>
+
+        <h3>Attributes</h3>
+        <p>HTML attributes are extra bits of information added to HTML elements that help define their behavior, appearance, or identity. They always appear inside the opening tag and are written as name-value pairs.</p>
+        <p>Here are some of the most widely used attributes:</p>
+        <ul>
+          <li><code>id</code> - Uniquely identifies an element on the page.</li>
+          <li><code>class</code> - Groups elements together for CSS or JavaScript styling.</li>
+          <li><code>style</code> - Adds inline CSS directly to an element.</li>
+          <li><code>title</code> - Adds a tooltip when the mouse hovers over the element.</li>
+          <li><code>href</code> - Specifies the URL in anchor (<code>&lt;a&gt;</code>) tags.</li>
+          <li><code>src</code> - Sets the source of media elements like images (<code>&lt;img&gt;</code>).</li>
+          <li><code>alt</code> - Provides alternative text for images (important for accessibility).</li>
+          <li><code>type</code> - Defines the type of input or button element.</li>
+          <li><code>value</code> - Sets a default or current value for input elements.</li>
+          <li><code>placeholder</code> - Displays hint text inside an empty input box.</li>
+          <li><code>disabled</code> - Disables an input or button element.</li>
+          <li><code>readonly</code> - Makes an input uneditable, but still selectable.</li>
+        </ul>
+
+        <h3>Semantics</h3>
+        <p>HTML Semantics refers to using meaningful tags that clearly describe the purpose and structure of content on a webpage.</p>
+        <p>Here are some of the most widely used semantic tags:</p>
+        <ul>
+          <li><code>&lt;header&gt;</code> - Contains introductory content or navigation for a page or section.</li>
+          <li><code>&lt;nav&gt;</code> - Defines a block of navigation links.</li>
+          <li><code>&lt;main&gt;</code> - Indicates the central content of a document.</li>
+          <li><code>&lt;section&gt;</code> - Groups related content into logical sections.</li>
+          <li><code>&lt;article&gt;</code> - Represents a self-contained piece of content (like a blog post).</li>
+          <li><code>&lt;aside&gt;</code> - Contains tangential content (like sidebars or tips).</li>
+          <li><code>&lt;footer&gt;</code> - Contains footer information for a page or section.</li>
+          <li><code>&lt;figure&gt;</code> - Wraps content like images with captions.</li>
+          <li><code>&lt;figcaption&gt;</code> - Defines a caption for a figure element.</li>
+        </ul>
+      </section>
+
+      <section id="Best_Practices_and_Tips" class="main-section">
+        <header>Best Practices and Tips</header>
+        <p>Writing clean and organized HTML starts with using proper <strong>indentation and spacing</strong>. This not only makes your code easier to read and maintain but also helps others understand your structure quickly. Aim to use two or four spaces consistently for each nested level of your code.</p>
+
+<p>Use <strong>semantic elements</strong> wherever possible. Instead of relying on generic <code>&lt;div&gt;</code> or <code>&lt;span&gt;</code> tags, use meaningful tags like <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, and <code>&lt;footer&gt;</code>. This improves the accessibility and SEO of your website and makes your code easier to navigate.</p>
+
+<p>Always include the <code>alt</code> attribute for images. This helps screen readers describe images to visually impaired users and also acts as a fallback if the image fails to load. Writing meaningful <code>alt</code> text improves both accessibility and user experience.</p>
+
+<p>Keep your HTML <strong>valid and well-structured</strong> by closing all tags properly, nesting elements correctly, and avoiding unnecessary repetition. You can use online validators like the W3C Markup Validation Service to check your code for errors.</p>
+
+<p>Lastly, separate <strong>structure (HTML)</strong>, <strong>style (CSS)</strong>, and <strong>behavior (JavaScript)</strong> into different files. This keeps your code modular and easier to debug, scale, and reuse in other projects. It’s a habit that sets the foundation for writing professional, maintainable web code.</p>
+      </section>
+    </main>
+  </body>
+</html>

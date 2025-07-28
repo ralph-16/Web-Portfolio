@@ -1,0 +1,45 @@
+body {
+  background-color: #1A1A2E;
+  color: #E5E5E5;
+  font-family: Sans-serif;
+}
+
+#title {
+  font-size: 5vw;
+  text-align: center;
+}
+
+#description{
+  font-size: 3vw;
+  text-align: center;
+  margin-top: -1.5vh;
+}
+
+#mainBox {
+  margin: auto;
+  width: 80%;
+  padding: 2vh 2vw;
+  border-radius: 15px;
+  background-color: #0F0F1B;
+  font-size: 3vh
+}
+
+.input {
+  background-color: #1A1A2E;
+  border-radius: 4px;
+  color: #E5E5E5;
+  border-color: #2A2A3B;
+  width: 90%;
+  height: 2em;
+  margin: 1em;
+}
+
+#gExp {
+  background-color: #1A1A2E;
+  border-radius: 4px;
+  color: #E5E5E5;
+  border-color: #2A2A3B;
+  width: 90%;
+  height: 20px;
+  margin: 0 1em 1em 1em;
+}

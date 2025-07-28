@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+  <title>Gaming Lifestyle Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <h1 id="title">Gaming Lifestyle Survey</h1>
+  <p id="description">We want to know your Gaming lifestyle and habits.</p>
+  <div id="mainBox">
+    <form id="survey-form">
+    <label for="name" id="name-label">Name:<br></label>
+      <input id="name" type="text" placeholder="Name" class="input" required>
+    <label for="email" id="email-label"><br>Your Email:<br></label>
+      <input id="email" type="email" placeholder="Email" class="input" required>
+    
+
+    <label for="number" id="number-label"><br>Age:<br></label>
+      <input id="number" type="number" min="12" max="100" placeholder="Age" class="input" required>
+    
+    <label for="dropdown"><br>How long are your gaming sessions?</label>
+    <select id="dropdown" class="input" required>
+      <option selected>Select an option</option>
+      <option value="<1">Less than 1 hour</option>
+      <option value="1-2">1-2 Hours</option>
+      <option value="2-5">2-5 Hours</option>
+      <option value=">5">More than 5 hours</option>
+    </select>
+    
+    <p>Main Gaming Device:</p>
+    <input name="main" type="radio" value="pcm" id="pcm" >
+    <label for="pcm">PC</label>
+    <input name="main" type="radio" value="mobilem" id="mobilem">
+    <label for="mobilem">Mobile</label>
+    <input name="main" type="radio" value="consolem" id="consolem">
+    <label for="consolem">Console</label>
+    
+    <p>Secondary Gaming Device:</p>
+    <input name="secondary" type="radio" value="pcs" id="pcs">
+    <label for="pcs">PC</label>
+    <input name="secondary" type="radio" value="mobiles" id="mobiles">
+    <label for="mobiles">Mobile</label>
+    <input name="secondary" type="radio" value="consoles" id="consoles">
+    <label for="consoles">Console</label>
+    
+    <p>What Gaming Genres do you play?</p>
+    <input type="checkbox" value="moba" id="moba">
+    <label for="moba">MOBA</label>
+    <span class="checkmark"></span>
+    <br>
+    <input type="checkbox" value="fps" id="fps">
+    <label for="fps">FPS</label>
+    <br>
+    <input type="checkbox" value="mmorpg" id="mmorpg">
+    <label for="mmorpg">MMORPG</label>
+    <br>
+    <input type="checkbox" value="simulation" id="simulation">
+    <label for="simulation">Simulation</label>
+    <br>
+    <input type="checkbox" value="puzzle" id="puzzle">
+    <label for="puzzle">Puzzle</label>
+    <br>
+    <br>
+    <p>Tell us about your Gaming experience:</p>
+    <textarea placeholder="Share your Gaming experience here..." id="gExp"></textarea>
+    <br>
+    <input type="submit" id="submit" value="Submit" class="input">
+  </form>
+  </div>
+  </body>
+</html>
