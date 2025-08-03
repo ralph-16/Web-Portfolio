@@ -1,12 +1,14 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 8rem;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #121212;
   color: #E0E0E0;
   margin: 0;
+  overflow-x: hidden;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
@@ -175,7 +177,7 @@ body {
   font-size: 1.5rem;
 }
 
-#github {
+.contacts-color img {
   filter: brightness(0) saturate(100%) invert(98%) sepia(1%) saturate(1402%) hue-rotate(243deg) brightness(113%) contrast(76%);
 }
 
@@ -197,11 +199,11 @@ body {
   }
 
   #welcome-section h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
   #welcome-section h2{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: #9B5DE5;
   }
 
@@ -210,4 +212,8 @@ body {
     text-align: center;
     margin: 1rem;
   }
+
+  #contacts h2 {
+  font-size: 1.9rem;
+}
 }
